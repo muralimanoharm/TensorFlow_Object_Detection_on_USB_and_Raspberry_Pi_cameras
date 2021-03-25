@@ -25,5 +25,8 @@ http://download.tensorflow.org/models/object_detection/ssdlite_mobilenet_v2_coco
 https://stackoverflow.com/questions/25166386/opencv-python-issue-with-getting-frame-rate-of-video
 https://stackoverflow.com/questions/55591437/attributeerror-module-tensorflow-has-no-attribute-gfile
 
+If you face a file missing error in protos copy the folder from this location to your object_detection folder
+https://github.com/datitran/object_detector_app/tree/master/object_detection/protos
+
 # Run
 python3 petDetect.py --usbcam
