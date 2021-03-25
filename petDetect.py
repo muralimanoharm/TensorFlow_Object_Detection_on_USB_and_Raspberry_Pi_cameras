@@ -106,11 +106,11 @@ freq = cv2.getTickFrequency()
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 # Define inside box coordinates (top left and bottom right)
-TL_inside = (int(IM_WIDTH*0.1),int(IM_HEIGHT*0.35))
+TL_inside = (int(IM_WIDTH*0.3),int(IM_HEIGHT*0.55))
 BR_inside = (int(IM_WIDTH*0.45),int(IM_HEIGHT-5))
 
 # Define outside box coordinates (top left and bottom right)
-TL_outside = (int(IM_WIDTH*0.46),int(IM_HEIGHT*0.25))
+TL_outside = (int(IM_WIDTH*0.66),int(IM_HEIGHT*0.45))
 BR_outside = (int(IM_WIDTH*0.8),int(IM_HEIGHT*.85))
 
 # Initialize control variables used for pet detector
